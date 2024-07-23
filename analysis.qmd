@@ -14,7 +14,38 @@ library(tidyverse)
 
 
 ```{r}
+#| label: read data
 x <- read_csv("data/STAR.csv")
 x
 ```
+
+## Question
+General: How does class size effect early school grades
+Specific: 
+
+## Quantity of interest
+What's the average causal effect of the small class size math score subtracted by regular class size math score?
+
+
+## Preceptor table
+A table with each row as a person, and the columns small class size math score, regular class size math score
+
+## Covariates
+race 
+
+## Moment in time
+2024
+
+## Validity
+The method for evaluating grade for math score might have changed
+
+## Stability
+Children form the 1990 may have had a prefrence in class size as opposed to now
+
+## Representativeness
+Children in Tennesee might not represent the whole US
+
+## Unconfoundedness
+
+I assume true
 
