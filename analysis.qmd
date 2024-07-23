@@ -1,0 +1,20 @@
+---
+title: "analysis"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+```
+
+
+```{r}
+x <- read_csv("data/STAR.csv")
+x
+```
+
